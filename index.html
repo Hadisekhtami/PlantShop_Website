@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="Assets/Css/style.css">
+  <title>LUKANI</title>
+</head>
+<body class="bg-light">
+
+
+    <!-- Header -->
+    <header class="container-fluid" >
+        <!-- Login-cart/welcome-text -->
+        <div class="Top-menu-container d-flex  flex-row-reverse justify-content-between bg-light p-2 ">
+        <div class="top-menu-group-up d-flex  ">
+            <div class="sign-log mx-2 decripition-up">
+            <a href="#"><p>Register</p></a>
+            </div>
+            <div class="cart mx-2 decripition-up ">
+            <a href="#"><p>Login</p></a>
+            </div>
+        </div>
+        <!-- Welecome-section -->
+        <div class="top-menu-brand  text-black">
+            <p class="decripition-up"> Welcome TO THE LUKANI☻ </p>
+        </div>
+        
+        </div>
+        <!-- Icon-menu-right -->
+        <div class="Top-menu-container d-flex  flex-row-reverse justify-content-between bg-light p-2 ">
+        <div class="top-menu-group-down d-flex ">
+            <div class="favorite mx-1">
+            <a href="#" class="px-1"><i class="fa fa-heart"></i></a>
+            </div>
+            <div class="user mx-1">
+            <a href="#" class="px-1"><i class="fa fa-user"></i></a>
+            </div>
+            <div class="cart mx-1">
+            <a href="#" class="px-1"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+        </div>
+
+        <!-- SearchBar -->
+        <div class="search">
+            <form class="form-inline searchbar" >
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success " type="submit">Search</button>
+            </form>
+        </div>
+    
+            <!-- Brand-site -->
+            <div class="brand">
+            <a href="./Index.html"><p class="text-brand">LUKANI</p></a>
+            </div>
+        </div>
+        <!-- Main-menu -->
+        <div class="Top-menu-container d-flex   justify-content-between bg-light p-2 ">
+        <div class="top-menu-group-down d-flex ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-list text-success" aria-hidden="true"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav " style="margin-left: -20px;">
+                <li class="nav-item active">
+                    <a class="nav-link mx-1" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#">SHOP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#">PAGES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#">CONTACT US</a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+    
+        <div class="top-menu-group-down d-flex  ">
+            <div class="decripition-up">
+            <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div> 
+        
+        </div>
+    <!-- Carousel -->
+        <div id="carouselExampleIndicators " class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+            <a href="#"><img class="d-block w-100 rounded" src="./Img/w1.webp" alt="First slide"></a>
+            <div class="d-md-block position-relative" >
+                <h3 class="carousel-caption  d-none fw-bolder py-5" style="color: black;max-width: fit-content;" >    TOP SALE  </h3>     
+                <p class="carousel-caption  d-none " style="color: black;max-width: fit-content;font-size: 1.2rem;">Discount <span class="text-success">20% Off</span> For Lukani Members</p>    
+                <a class="carousel-caption d-none  btn   btn-outline text-light"  style="max-width: fit-content;bottom: -60px;border: 2px solid white;background-color: #003900;">SHOP NOW</a>  
+            </div>
+            </div>
+            <div class="carousel-item">
+            <a  href="#"> <img class="d-block w-100 rounded" src="./Img/w2.webp" alt="Second slide"></a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only "></span>
+            </a>
+        </div>
+        </div>
+    </header>
+
+    <section class="container-fluid " >
+        <!-- shipping nav -->
+        <div class="container-fluid" style="background-color: white;">
+        <div class="row  mt-5" >
+            <div class="col-sm-12  col-xl-4 col-lg-4 flex-md-column    ">
+            <div class="content-shipping d-flex  justify-content-center  ">
+                <img src="./Img/free-delivery.png" alt="Free Delivery" >
+                <div class="flex-column align-items-center">
+                <p class=" text-nowrap shipping-text mx-2">
+                Free Delivery
+                </p>
+                <p class=" text-nowrap  mx-2">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-12  col-xl-4 col-lg-4 flex-md-column   ">
+            <div class="content-shipping d-flex  justify-content-center ">
+                <img src="./Img/high_quality.png" alt="Safe Payment" >
+                <div class="flex-column align-items-center">
+                <p class=" text-nowrap shipping-text mx-2">
+                    Safe Payment
+                </p>
+                <p class=" text-nowrap  mx-2">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-12  col-xl-4 col-lg-4 flex-md-column   ">
+            <div class="content-shipping d-flex  justify-content-center ">
+                <img src="./Img/package.png" alt="Friendly Service" >
+                <div class="flex-column align-items-center">
+                <p class=" text-nowrap shipping-text mx-2">
+                    Friendly Service
+                </p>
+                <p class=" text-nowrap mx-2">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>  
+        <!-- Two Plants -->
+        <div class="container-fluid mt-5 mb-5 ">
+        <div class="row   ">
+            <div class="col-sm  Plants" style="background-color: #f1f1f1;">
+            <img src="./Img/5.png" class="float-right" >
+            <div class="flex-column  mx-3">
+                <h4 class=" text-nowrap mt-5">
+                Big State Products
+                </h4>
+                <h3 class=" text-nowrap mt-3">
+                Plants
+                </h3>
+                <h3 class=" text-nowrap   ">
+                For Healthy
+                </h3>
+                <a href="#" class="btn  mt-2 mb-5 btn-shop">SHOP NOW</a>
+            </div>
+            </div>
+            <div class="col-sm  Plants" style="background-color: #f0f0f0;">
+            <img src="./Img/6.png" class="float-right">
+            <div class="flex-column  mx-3 ">
+                <h4 class=" text-nowrap  mt-5 ">
+                Top Products
+                </h4>
+                <h3 class=" text-nowrap mt-3 ">
+                Plants
+                </h3>
+                <h3 class=" text-nowrap  ">
+                For Interior
+                </h3>
+                <a href="#" class="btn  mt-2 mb-5 btn-shop" >SHOP NOW</a>
+
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- Products -->
+        <div class="container d-flex flex-column align-items-center mt-5 " style="background-color: white;">
+        <h2 class="mt-5 text-center title-product" >OUR PRODUCTS</h2>
+        <div class="row justify-content-center mt-5 mb-5">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
+            <div class="card">
+                <div> <span class="badge badge-danger mx-2 mt-2 rounded-circle">-7%</span></div>
+
+                <img class="card-img-top" src="./Img/1.png" alt="Card image cap">
+                <div class="card-body d-flex justify-content-between">
+                <p class="card-text">Monstera</p>
+                <p class="card-text">200<span class="price">$</span></p>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
+            <div class="card">
+                <div> <span class="badge badge-danger mx-2 mt-2 rounded-circle">-7%</span></div>
+                <img class="card-img-top" src="./Img/2.png" alt="Card image cap">
+                <div class="card-body d-flex justify-content-between">
+                <p class="card-text">Monstera</p>
+                <p class="card-text">200<span class="price">$</span></p>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
+            <div class="card">
+                <div> <span class="badge badge-danger mx-2 mt-2 rounded-circle">-7%</span></div>
+                <img class="card-img-top" src="./Img/5.png" alt="Card image cap">
+                <div class="card-body d-flex justify-content-between">
+                <p class="card-text">Monstera</p>
+                <p class="card-text">200<span class="price">$</span></p>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4">
+            <div class="card">
+                <div> <span class="badge badge-danger mx-2 mt-2 rounded-circle">-7%</span></div>
+                <img class="card-img-top" src="./Img/4.png" alt="Card image cap">
+                <div class="card-body d-flex justify-content-between">
+                <p class="card-text">Monstera</p>
+                <p class="card-text">200<span class="price">$</span></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=" text-center " style="background-color: rgb(27, 27, 27);">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+        <!-- Facebook -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-facebook-f  text-white"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-twitter  text-white"></i
+        ></a>
+
+        <!-- Google -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-google  text-white"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-instagram  text-white"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-linkedin-in  text-white"></i
+        ></a>
+
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1  text-white" href="#!" role="button"
+            ><i class="fab fa-github  text-white"></i
+        ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+        <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+                <p class="pt-2">
+                <strong class=" text-white">Sign up for our newsletter</strong>
+                </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form5Example24" class="form-control" />
+                <label class="form-label  text-white" for="form5Example24">Email address</label>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+                <!-- Submit button -->
+                <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4  text-white">
+                Subscribe
+                </button>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+        <p class=" text-white"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+            harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+        </section>
+        <!-- Section: Text -->
+
+    
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3  text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2020 Copyright:
+        <a class="text-reset fw-bold  text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+<script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
+</body>
+</html>
