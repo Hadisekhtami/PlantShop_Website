@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'FH Collena';
+    src: url(./FH+Collena.eot);
+    src: url(./FH+Collena.eot?#iefix) format('embedded-opentype'),
+         url(./FH+Collena.woff2) format('woff2'),
+         url(./FH+Collena.woff) format('woff'),
+         url(./FH+Collena.ttf) format('truetype'),
+         url(./FH+Collena.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+}
+  
+  
+  *
+{
+    color: black;
+    text-decoration: none!important;
+   
+}
+html
+{
+    font-size: 16px;
+}
+.Top-menu-container
+{
+    font-size: 1.2rem;
+}
+.header-title
+{
+    font-size: 2rem;
+    animation: bounce-in-top 1.1s both;
+    color: black;
+    margin-top: 20%;
+}
+.text-brand
+{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Belfika Namor' 
+}
+.carousel-caption
+{
+    margin-bottom: 650px!important;
+    margin-left: 600px;
+    font-family: 'FH Collena';
+    font-weight: bold;
+}
+.btn-carousel
+{
+    top: -670px!important;
+}
+.btn:hover
+{
+    opacity: 0.9;
+    font-weight: bold;
+}
+.content-shipping img
+{
+    width: 64px;
+    height: 64px;
+}
+.shipping-text
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #003900;
+}
+.card-text
+{
+    font-size: 1.2rem;
+}
+.btn-shop
+{
+    border: none;
+    border-bottom: 2px solid #003900; 
+}
+.Plants
+{
+    box-shadow: 1px 1px 5px  #003900;
+    opacity: 0.9;
+}
+.card
+{
+    border: none;
+    background-color: #f1f1f1b1;
+}
+.card:hover
+{
+    box-shadow: 10px 10px  20px #e2e2e2;
+    transform: translate(5px, -30px);
+    transition: all .5s ease-in-out;
+}
+.price
+{
+    color: #003900;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px)
+{
+    
+    .searchbar
+    {
+      display: flex;
+      flex-wrap:nowrap ;
+      width: 200px;;
+    }
+  
+    .decripition-up
+    {
+     display: none;
+    } 
+    .card
+    {
+      width: 350px;
+      margin: 20px;
+    }
+    .Plants
+    {
+      margin: 20px;
+    }
+    .btn-shop
+    {
+      margin-top: -250px!important;
+    }
+}
+@media screen and (min-width:1490px) 
+  {  
+    .carousel-caption
+    {
+      display:block!important;
+    }  
+  }
+@media screen and (min-width: 600px) and (max-width: 1100px) 
+{
+    .Plants {
+      margin: 20px; 
+    }
+  
+    .btn-shop {
+      position: absolute;
+      bottom: 100px !important;
+    }
+}
+  
+  
