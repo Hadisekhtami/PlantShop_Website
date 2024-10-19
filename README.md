@@ -1,2 +1,2 @@
 # PlantShop_Website
-  A Sample Design ForPlantShop Website Use:Html,CSS, Bootstrap
+  A Sample Design For PlantShop Website Use:Html,CSS,Bootstrap
